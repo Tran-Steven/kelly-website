@@ -25,7 +25,7 @@ export default function Home() {
       </h1>
       <div className={styles.about}>
         <h2 className={styles.aboutintro}>
-          Hi there! I'm Kelly, a passionate Economics Graduate from the
+          Hi there! I&apos;m Kelly, a passionate Economics Graduate from the
           University of Georgia.{" "}
         </h2>
         <p>
@@ -34,8 +34,9 @@ export default function Home() {
           Analysis and Statistics.{" "}
         </p>
         <p>
-          <br />I enjoy learning new things in my spare time, but when I'm not
-          online... I love trying new food and spending time with my two cats!
+          <br />I enjoy learning new things in my spare time, but when I&apos;m
+          not online... I love trying new food and spending time with my two
+          cats!
         </p>
         <p>
           <br />
