@@ -42,7 +42,7 @@ export default function Home() {
           <br />
           <div className={styles.minih}>Relevant Coursework</div>
           Intermediate Microeconomics <br></br>Applied Stat. and Data Analysis
-          for Bus.<br></br> Intro. to Information Systems in Bus.
+          <br></br> Intro. to Information Systems
         </p>
         <p>
           <br />
