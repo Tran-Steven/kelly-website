@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import down from "../app/angle-down-solid.svg";
 export default function Home() {
   return (
     <main>
@@ -23,7 +23,7 @@ export default function Home() {
           Tran
         </div>
       </h1>
-      <div className={styles.about}>
+      <div className={styles.about} id="about">
         <h2 className={styles.aboutintro}>
           Hi there! I&apos;m Kelly, a passionate Economics Graduate from the
           University of Georgia.{" "}
@@ -59,9 +59,13 @@ export default function Home() {
         </p>
       </div>
 
-      {/* <div className={styles.down}>
-        <button className={styles.downButton}>v</button>
-      </div> */}
+      <div className={styles.down}>
+        <button className={styles.downButton}>
+          <a href="#about">
+            <Image className={styles.downImg} src={down}></Image>
+          </a>
+        </button>
+      </div>
     </main>
   );
 }
