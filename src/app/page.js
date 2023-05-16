@@ -41,8 +41,12 @@ export default function Home() {
         <p>
           <br />
           <div className={styles.minih}>Relevant Coursework</div>
-          Intermediate Microeconomics <br></br>Applied Stat. and Data Analysis
-          <br></br> Intro. to Information Systems
+          Intermediate Microeconomics <br />
+          Intro. to Information Systems
+          <br />
+          Applied Stat. and Data Analysis
+          <br />
+          Intro. to Data Science for Busn
         </p>
         <p>
           <br />
